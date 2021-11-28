@@ -1,0 +1,129 @@
+body {font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+.logo {
+    height: 60px;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    color: white;
+}
+
+header ol li {
+    font-size: x-small;
+    padding-right: 3em;
+    line-height: 30px;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 25px;
+    border-bottom: solid 3px black;
+    border-left: solid 5px black;
+    padding-left: 10px;
+}
+
+.left h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-left: 4px red solid;
+    padding-top: 5px;
+    margin-left: 15px;
+    padding-left: 10px;
+    width: 500px;
+    font-size: 20px;
+}
+
+.text, textarea {
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    color: #999;
+    background: #fff;
+}
+
+.left div {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+.submit {
+    border: 1px solid lightgray;
+    padding: 4px 10px;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    border-bottom: solid 2px black;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin: 5px;
+    background-color: #fdfdfd;
+    border: 3px #ebebeb solid;
+}
+
+.left {
+    float: left;
+    width: 70%;
+}
+
+.right {
+    float: left;
+    width: 30%;
+}
+
+.right h2 {
+    border-bottom: 2px black dotted;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.right ol li {
+    font-size: 18px;
+}
+
+.kiji {
+    background-color: #fdfdfd;
+    border: 3px #ebebeb solid;
+    margin: 10px;
+    padding: 0 10px;
+}
+
+.kiji h3 {
+    border-bottom: 3px #ebebeb solid;
+    font-size: 20px;
+}
+
+.kiji .nakami {
+    font-size: 18px;
+}
+
+.kiji .namae {
+    font-size: xx-small;
+}
+
+footer {
+    clear: left;
+    background-color: black;
+    height: 35px;
+    margin-top: 10px;
+    font-size: x-small;
+    color: white;
+}
+
+footer p {
+    line-height: 35px;
+    margin: 0 auto;
+    font-size: xx-small;
+    width: 500px;
+}
